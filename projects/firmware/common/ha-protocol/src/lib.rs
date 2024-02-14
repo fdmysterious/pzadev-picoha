@@ -1,5 +1,6 @@
 #![no_std]
 
+pub mod transport;
 pub mod ha;
 
 #[cfg(test)]

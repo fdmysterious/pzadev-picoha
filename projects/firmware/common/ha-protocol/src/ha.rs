@@ -145,6 +145,8 @@ impl MsgFrame {
       })
    }
 
+   pub fn to_slice(&self) -> &
+
    /// Compute the CRC of the frame
    pub fn crc(&self) -> u16 {
       let code_u16 = self.code.try_into_u16().unwrap();
